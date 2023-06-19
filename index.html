@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <p>Tap the box to play</p>
+        <p><span id="p1">Player 1 : X</span>    <span id="p2">Player 2 : O</span></p>
+        <div class="column">
+            <div class="row">
+                <input type="text" name=""  class="cell" id="a1" onclick="func_2(); func_1();">
+                <input type="text" name=""  class="cell" id="a2" onclick="func_3(); func_1();">
+                <input type="text" name=""  class="cell" id="a3" onclick="func_4(); func_1();">
+            </div>
+            <div class="row">
+                <input type="text" name=""  class="cell" id="a4" onclick="func_5(); func_1();">
+                <input type="text" name=""  class="cell" id="a5" onclick="func_6(); func_1();">
+                <input type="text" name=""  class="cell" id="a6" onclick="func_7(); func_1();">
+            </div>
+            <div class="row">
+                <input type="text" name=""  class="cell" id="a7" onclick="func_8(); func_1();">
+                <input type="text" name=""  class="cell" id="a8" onclick="func_9(); func_1();">
+                <input type="text" name=""  class="cell" id="a9" onclick="func_10(); func_1();">
+            </div>
+        </div>
+        <button id="reset" onclick="func_11()">RESET</button>
+        <p id="print"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

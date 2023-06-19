@@ -1,0 +1,55 @@
+.container{
+    text-align: center;
+}
+h1{
+    color: rgb(252, 26, 6);
+    font-size: 300%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.cell{
+    display: flex;
+    height:50px;
+    width:50px;
+    margin: 10px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #ccc;
+    font-size: 25px;
+    color: tomato;
+    font-weight: 700;
+} 
+#p1{
+    margin-right: 20px;
+    color: rgba(6, 6, 214, 0.709);
+    font-size: 25px;
+    font-weight: 700;
+}
+#p2{
+    margin-left: 20px;
+    color: rgba(6, 6, 214, 0.709);
+    font-size: 25px;
+    font-weight: 700;
+}
+#reset{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.container>p{
+    color: rgb(0, 183, 255);
+    font-size: 25px;
+    font-weight: 700;
+}
