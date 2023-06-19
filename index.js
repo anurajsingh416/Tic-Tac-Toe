@@ -125,7 +125,7 @@ else if(a3=="X" && a5=="X" && a7=="X"){
     a7btn.style.color=" green";
 }
 else if(a1=="O" && a2=="O" && a3=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a4btn.disabled=true;
     a5btn.disabled=true;
     a6btn.disabled=true;
@@ -138,7 +138,7 @@ else if(a1=="O" && a2=="O" && a3=="O"){
     a3btn.style.color=" green";
 }
 else if(a4=="O" && a5=="O" && a6=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a1btn.disabled=true;
     a2btn.disabled=true;
     a3btn.disabled=true;
@@ -151,7 +151,7 @@ else if(a4=="O" && a5=="O" && a6=="O"){
     a6btn.style.color=" green";
 }
 else if(a1=="O" && a4=="O" && a7=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a2btn.disabled=true;
     a3btn.disabled=true;
     a5btn.disabled=true;
@@ -164,7 +164,7 @@ else if(a1=="O" && a4=="O" && a7=="O"){
     a7btn.style.color=" green";
 }
 else if(a7=="O" && a8=="O" && a9=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a1btn.disabled=true;
     a2btn.disabled=true;
     a3btn.disabled=true;
@@ -177,7 +177,7 @@ else if(a7=="O" && a8=="O" && a9=="O"){
     a9btn.style.color=" green";
 }
 else if(a2=="O" && a5=="O" && a8=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a1btn.disabled=true;
     a3btn.disabled=true;
     a4btn.disabled=true;
@@ -190,7 +190,7 @@ else if(a2=="O" && a5=="O" && a8=="O"){
     a8btn.style.color=" green";
 }
 else if(a3=="O" && a6=="O" && a9=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a1btn.disabled=true;
     a2btn.disabled=true;
     a4btn.disabled=true;
@@ -203,7 +203,7 @@ else if(a3=="O" && a6=="O" && a9=="O"){
     a9btn.style.color=" green";
 }
 else if(a1=="O" && a5=="O" && a9=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a4btn.disabled=true;
     a2btn.disabled=true;
     a6btn.disabled=true;
@@ -216,7 +216,7 @@ else if(a1=="O" && a5=="O" && a9=="O"){
     a9btn.style.color=" green";
 }
 else if(a3=="O" && a5=="O" && a7=="O"){
-    document.getElementById("print").innerHTML="Player X Won";
+    document.getElementById("print").innerHTML="Player O Won";
     a1btn.disabled=true;
     a2btn.disabled=true;
     a4btn.disabled=true;
