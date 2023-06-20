@@ -75,7 +75,7 @@ else if(a7=="X" && a8=="X" && a9=="X"){
 else if(a2=="X" && a5=="X" && a8=="X"){
     document.getElementById("print").innerHTML="Player X Won";
     a1btn.disabled=true;
-    ab3tn.disabled=true;
+    a3btn.disabled=true;
     a4btn.disabled=true;
     a6btn.disabled=true;
     a7btn.disabled=true;
